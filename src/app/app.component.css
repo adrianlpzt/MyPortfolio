@@ -1,0 +1,41 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+    .toolbar {
+        background-color: #333333;
+    }
+    .title {
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 5%;
+        font-size: 1em;
+        color: aliceblue;
+    }
+
+    .parpadeo {
+        color: aliceblue;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 5px;
+        animation-name: parpadeo;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        -webkit-animation-name:parpadeo;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    }
+    
+    @keyframes parpadeo {  
+        50% {
+            opacity: 0;
+        }
+    }
+    .mat-sidenav-container {
+        height: 100vh;
+    }
+    .sidenav {
+        background-color: #333333;
+        width: 9%;
+        height: 1000vmax;
+    }
+
+    

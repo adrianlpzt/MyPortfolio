@@ -12,6 +12,8 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MenuComponent } from './menu/menu.component';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -20,9 +22,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent
   ],
   imports: [
+    MatButtonModule,
     BrowserModule,
     AppRoutingModule,
     MatSidenavModule,
