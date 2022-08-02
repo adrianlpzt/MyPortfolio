@@ -1,8 +1,13 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+/* ESTILOS DEL TITULO */
+
     .toolbar {
+        position: relative;
+        z-index: 2;
         background-color: #333333;
     }
+    
     .title {
         font-family: 'Roboto Mono', monospace;
         margin-left: 5%;
@@ -15,11 +20,11 @@
         font-family: 'Roboto Mono', monospace;
         margin-left: 5px;
         animation-name: parpadeo;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         -webkit-animation-name:parpadeo;
-        -webkit-animation-duration: 2s;
+        -webkit-animation-duration: 1s;
         -webkit-animation-timing-function: linear;
         -webkit-animation-iteration-count: infinite;
     }
@@ -29,12 +34,16 @@
             opacity: 0;
         }
     }
+
+/* ESTTILOS DE SIDENAV */
+
     .mat-sidenav-container {
         height: 100vh;
     }
     .sidenav {
+        position: fixed;
         background-color: #333333;
-        width: 9%;
+        width: 15%;
         height: 1000vmax;
     }
 
