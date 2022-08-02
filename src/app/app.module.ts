@@ -15,6 +15,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import {MatButtonModule} from '@angular/material/button';
 import { ProfileComponent } from './profile/profile.component';
+import { InfoComponent } from './info/info.component';
+
 
 
 
@@ -25,7 +27,8 @@ import { ProfileComponent } from './profile/profile.component';
   declarations: [
     AppComponent,
     MenuComponent,
-    ProfileComponent
+    ProfileComponent,
+    InfoComponent
   ],
   imports: [
     MatButtonModule,

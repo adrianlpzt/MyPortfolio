@@ -1,0 +1,24 @@
+.info-container {
+    color: #4b4b4b;
+    margin-top: 25%;
+}
+
+.title {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 4em;
+    margin-left: 7%;
+
+}
+
+.subtitle {
+    margin-top: 3%;
+    margin-left: 7%;
+    font-family: 'roboto';
+    font-weight: 400;
+    width: 80%;
+    color: #6d6d6d;
+    font-size: 1.6em;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
