@@ -14,6 +14,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import {MatButtonModule} from '@angular/material/button';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -23,7 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    ProfileComponent
   ],
   imports: [
     MatButtonModule,

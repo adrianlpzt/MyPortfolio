@@ -1,12 +1,17 @@
 .menu {
+    position: absolute;
+    top: 150px;
+    right: 0;
     text-align: center;
     }
 
 .item-menu {
-    text-align: center;
+    width: 100%;
 }
 
 .item-menu button {
+    width: 100%;
     color: aliceblue;
     margin: 0 auto;
+    text-align: right;
 }
