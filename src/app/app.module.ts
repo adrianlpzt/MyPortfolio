@@ -16,6 +16,11 @@ import { MenuComponent } from './menu/menu.component';
 import {MatButtonModule} from '@angular/material/button';
 import { ProfileComponent } from './profile/profile.component';
 import { InfoComponent } from './info/info.component';
+import { SkillsComponent } from './skills/skills.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
+
 
 
 
@@ -28,7 +33,8 @@ import { InfoComponent } from './info/info.component';
     AppComponent,
     MenuComponent,
     ProfileComponent,
-    InfoComponent
+    InfoComponent,
+    SkillsComponent
   ],
   imports: [
     MatButtonModule,
@@ -40,7 +46,9 @@ import { InfoComponent } from './info/info.component';
     MatDividerModule,
     MatCardModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatGridListModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
