@@ -21,13 +21,6 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
-
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +41,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MatToolbarModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,  
   ],
   providers: [],
   bootstrap: [AppComponent]
