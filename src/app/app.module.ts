@@ -19,6 +19,9 @@ import { InfoComponent } from './info/info.component';
 import { SkillsComponent } from './skills/skills.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { HomeComponentComponent } from './home-component/home-component.component';
+import { ProjectsComponentComponent } from './projects-component/projects-component.component';
+import { SocialComponentComponent } from './social-component/social-component.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MenuComponent,
     ProfileComponent,
     InfoComponent,
-    SkillsComponent
+    SkillsComponent,
+    HomeComponentComponent,
+    ProjectsComponentComponent,
+    SocialComponentComponent
   ],
   imports: [
     MatButtonModule,
