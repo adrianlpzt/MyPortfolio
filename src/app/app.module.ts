@@ -22,6 +22,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { ProjectsComponentComponent } from './projects-component/projects-component.component';
 import { SocialComponentComponent } from './social-component/social-component.component';
+import { ProjectsComponent } from './projects-component/projects/projects.component';
+import { HabilitiesComponent } from './habilities/habilities.component';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { SocialComponentComponent } from './social-component/social-component.co
     SkillsComponent,
     HomeComponentComponent,
     ProjectsComponentComponent,
-    SocialComponentComponent
+    SocialComponentComponent,
+    ProjectsComponent,
+    HabilitiesComponent
   ],
   imports: [
     MatButtonModule,

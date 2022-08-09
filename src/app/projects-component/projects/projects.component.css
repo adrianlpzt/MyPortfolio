@@ -1,0 +1,23 @@
+.mat-grid-list {
+    background-color: #dfdfdf;
+}
+.card-container {
+    background-color: #dfdfdf;
+}
+
+.card {
+    width: 70%;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    background-color: #474747;
+    color: white;
+}

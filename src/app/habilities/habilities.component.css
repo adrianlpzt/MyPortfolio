@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.container {
+    position: relative;
+    top: 730px;
+    height: 500px;
+}
+
+.title {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 5%;
+    font-size: 4.5em;
+    color: #333333;
+}
