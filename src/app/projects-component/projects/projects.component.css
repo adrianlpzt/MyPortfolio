@@ -1,3 +1,8 @@
+.container {
+    background-color: #dfdfdf;
+    padding: 3% 8% 0 8%;
+}
+
 .mat-grid-list {
     background-color: #dfdfdf;
 }
